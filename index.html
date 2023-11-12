@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="assets/css/template.css" />
+    <script type="text/javascript">
+        window.onload = function () {
+            // selecionando o menuMobile e adicionando evento de clique
+            document
+                .querySelector(".menuMobile")
+                .addEventListener("click", function () {
+                    // se o botão estiver aparecendo, faça desaparecer
+                    if (
+                        document.querySelector(".menu nav ul").style.display == "flex"
+                    ) {
+                        document.querySelector(".menu nav ul").style.display = "none";
+                    }
+                    // caso contrário, apareça
+                    else {
+                        document.querySelector(".menu nav ul").style.display = "flex";
+                    }
+                });
+        };
+    </script>
+    <title>Clinica Medicenter</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href=""><img src="assets/images/logo.png" /></a>
+            </div>
+            <div class="menu">
+                <nav>
+                    <div class="menuMobile">
+                        <div class="mm_line"></div>
+                        <div class="mm_line"></div>
+                        <div class="mm_line"></div>
+                    </div>
+
+                    <ul>
+                        <li class="ativo"><a href="">HOME</a></li>
+                        <li><a href="">PLANOS</a></li>
+                        <li><a href="">EQUIPE</a></li>
+                        <li><a href="">SOBRE NÓS</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+        </div>
+    </header>
+
+    <section id="banner">
+        <div class="container column">
+            <div class="banner_headline">
+                <h1>Sua consulta Aqui.</h1>
+                <h2>Esse template é responsivo e útil para todas as telas!</h2>
+            </div>
+
+            <div class="banner_options">
+                <div class="banner1">
+                    <div class="banner_title">Marque sua Consulta</div>
+                    <div class="banner_desc">O texto de sua escolha!</div>
+                    <a href="#">Clique Aqui</a>
+                </div>
+                <div class="banner2">
+                    <div class="banner_title">Resultados de Exames</div>
+                    <div class="banner_desc">O texto de sua escolha!</div>
+                    <a href="">Clique Aqui</a>
+                </div>
+                <div class="banner3">
+                    <div class="banner_title">Horários:</div>
+                    <div class="b3desc">Segunda-Sexta<span> 08:00-17:00 hrs</span></div>
+                    <div class="b3desc">Sábado <span>08:00-17:00 hrs</span></div>
+                    <div class="b3desc">Domingo <span>08:00-17:00 hrs</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="geral">
+        <div class="container">
+            <section>
+                <div class="widget">
+                    <div class="widget_title">
+                        <div class="widget_title_text">Ultímas Notícias!</div>
+                        <div class="widget_title_bar"></div>
+                    </div>
+                    <div class="widget_body flex">
+                        <article>
+                            <a href="">
+                                <div class="news_data">
+                                    <div class="news_posted_at">12 DEZ 2023</div>
+                                    <div class="news_comments">2</div>
+
+                                </div>
+                                <div class="news_thumb">
+                                    <img src="assets/images/dr.jpg" />
+                                </div>
+                                <div class="news_title">
+                                    Lorem ipsum dolor sit amat velum
+                                </div>
+                                <div class="news_resume">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eleifend sapien vitae
+                                    odio
+                                    tempus euismod. Nulla blandit ligula orci, eu pharetra ex rutrum sollicitudin.
+                                    Cras hendrerit convallis dolor ut porta.
+                                </div>
+                            </a>
+                        </article>
+
+                        <article>
+                            <a href="">
+                                <div class="news_data">
+                                    <div class="news_posted_at">12 DEZ 2023</div>
+                                    <div class="news_comments">2</div>
+
+                                </div>
+                                <div class="news_thumb">
+                                    <img src="assets/images/dr.jpg" />
+                                </div>
+                                <div class="news_title">
+                                    Lorem ipsum dolor sit amat velum
+                                </div>
+                                <div class="news_resume">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eleifend sapien vitae
+                                    odio
+                                    tempus euismod. Nulla blandit ligula orci, eu pharetra ex rutrum sollicitudin.
+                                    Cras hendrerit convallis dolor ut porta.
+                                </div>
+                            </a>
+                        </article>
+
+                        <article>
+                            <a href="">
+                                <div class="news_data">
+                                    <div class="news_posted_at">12 DEZ 2023</div>
+                                    <div class="news_comments">2</div>
+
+                                </div>
+                                <div class="news_thumb">
+                                    <img src="assets/images/dr.jpg" />
+                                </div>
+                                <div class="news_title">
+                                    Lorem ipsum dolor sit amat velum
+                                </div>
+                                <div class="news_resume">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eleifend sapien vitae
+                                    odio
+                                    tempus euismod. Nulla blandit ligula orci, eu pharetra ex rutrum sollicitudin.
+                                    Cras hendrerit convallis dolor ut porta.
+                                </div>
+                            </a>
+                        </article>
+
+                        <article>
+                            <a href="">
+                                <div class="news_data">
+                                    <div class="news_posted_at">12 DEZ 2023</div>
+                                    <div class="news_comments">2</div>
+
+                                </div>
+                                <div class="news_thumb">
+                                    <img src="assets/images/dr.jpg" />
+                                </div>
+                                <div class="news_title">
+                                    Lorem ipsum dolor sit amat velum
+                                </div>
+                                <div class="news_resume">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eleifend sapien vitae
+                                    odio
+                                    tempus euismod. Nulla blandit ligula orci, eu pharetra ex rutrum sollicitudin.
+                                    Cras hendrerit convallis dolor ut porta.
+                                </div>
+                            </a>
+                        </article>
+
+                    </div>
+                </div>
+            </section>
+
+
+            <aside>
+                <div class="widget">
+                    <div class="widget_title">
+                        <div class="widget_title_text">Departamentos</div>
+                        <div class="widget_title_bar"></div>
+                    </div>
+                    <div class="widget_body">
+                        <div class="square_body">
+                            <div class="square"></div>
+                            <div class="square"></div>
+                            <div class="square"></div>
+                            <div class="square"></div>
+                            <div class="square"></div>
+                            <div class="square"></div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="widget">
+                        <div class="widget_title">
+                            <div class="widget_title_text">Marcar Uma Consulta</div>
+                            <div class="widget_title_bar"></div>
+                        </div>
+                        <div class="widget_body">
+
+                            <div id="desc">Aqui estão nossos contatos para agendamentos de consultas!</div>
+                            <div class="icon1">
+                                <div class="box_desc"></div>
+                                <div class="box_txt">Telefone: (44) 99999-9999</div>
+                            </div>
+
+                            <div class="icon2">
+                                <div class="box_desc"></div>
+                                <div class="box_txt">Email: brunoneri.ds@gmail.com</div>
+                            </div>
+
+                            <div class="icon3">
+                                <div class="box_desc"></div>
+                                <div class="box_txt"> ou
+                                    <a href="#"> Prencha esse Formulário</a> em nossa página de contatos:<br>
+                                </div>
+                            </div>
+
+                        </div>
+
+            </aside>
+        </div>
+
+    </section>
+
+
+    <!---Links do rodapé!-->
+    <footer>
+        <div class="container column">
+            <div class="footer_menu">
+                <div class="fm_1">
+                    <a href="#">
+                        <div class="banner_title">Planos de Saúde</div>
+                        <div class="banner_desc">Vários Planos aceitos →</div>
+                </div>
+                </a>
+                <div class="fm_2">
+                    <a href="#">
+                        <div class="banner_title">Registros Médicos</div>
+                        <div class="banner_desc">Vários Planos aceitos →</div>
+                </div>
+                </a>
+                <div class="fm_3">
+                    <a href="#">
+                        <div class="banner_title">Contas Online</div>
+                        <div class="banner_desc">Vários Planos aceitos →</div>
+                </div>
+                </a>
+            </div>
+
+            <div class="footer_area">
+                <div class="footer_areaitem">
+                    <div class="widget">
+                        <div class="widget_title">
+                            <div class="widget_title_text">Cliníca Medicenter</div>
+                            <div class="widget_title_bar"></div>
+                        </div>
+                        <div class="widget_body">
+                            <div class="footer_txt_main">
+                                <p>Maurius adipiscing mauris fringilla turpis interdum sed pulvinar nisi malesuada
+                                    individual.</p>
+                            </div>
+                            <div class="footer_info">
+                                <div class="footer_txt">
+                                    <p>Clínica Medicenter:<br>
+                                        Rua Exemplo Nº 33<br>
+                                        Loanda, PR<br>
+                                        87900-000, Brasil</p>
+                                </div>
+                                <div class="footer_txt1">
+                                    <p>+44 99999-9999<br>
+                                        +44 3425-0000<br>
+                                        <a href="mailto">brunoneri.ds@gmail.com</a>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="footer_icons">
+                                <a href=""><img src="https://i.imgur.com/HlOxqaV.png" height="20px" width="20px"></a>
+                                <a href=""><img src="https://i.imgur.com/sjhhXg0.png" height="20px" width="20px"></a>
+                                <a href=""><img src="https://i.imgur.com/O077N2b.png" height="20px" width="20px"></a>
+                                <a href=""><img src="https://i.imgur.com/09KVUUZ.png" height="20px" width="20px"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer_areaitem">
+                    <div class="widget">
+                        <div class="widget_title">
+                            <div class="widget_title_text">Últimas Postagens</div>
+                            <div class="widget_title_bar"></div>
+                        </div>
+                        <div class="widget_body">
+                            <div class="posts">
+                                <a href="">
+                                    <div class="post1">→ Este é um texto de teste para postagens de redes sociais! Suas
+                                        postagens apareçerão aqui!<br>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="footer_post_data">
+                            <div>6 dias atrás</div>
+                        </div>
+
+                        <div class="posts">
+                            <a href="">
+                                <div class="post1">→ Este é um texto de teste para postagens de redes sociais! Suas
+                                    postagens apareçerão aqui!<br>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="footer_post_data">
+                        <div>6 dias atrás</div>
+                    </div>
+
+                    <div class="posts">
+                        <a href="">
+                            <div class="post1">→ Este é um texto de teste para postagens de redes sociais! Suas
+                                postagens apareçerão aqui!<br>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer_post_data">
+                    <div>6 dias atrás</div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <div class="footer_areaitem">
+            <div class="widget">
+                <div class="widget_title">
+                    <div class="widget_title_text">Tweets!</div>
+                    <div class="widget_title_bar"></div>
+                </div>
+                <div class="widget_body">
+                    <div class="posts">
+                        <a href="">
+                            <div class="post2">→ Marque sua consulta hoje mesmo em nossa clínica médica e cuide da sua
+                                saúde! Estamos aqui para atender você!<br>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="footer_post_data">
+                        <div>2 dias atrás</div>
+                    </div>
+
+                    <div class="posts">
+                        <a href="">
+                            <div class="post2">→ Nossos médicos altamente qualificados estão prontos para ajudar a
+                                melhorar a sua qualidade de vida. Agende agora sua consulta!<br>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="footer_post_data">
+                        <div>3 dias atrás</div>
+                    </div>
+
+                    <div class="posts">
+                        <a href="">
+                            <div class="post2">→ Cuide da sua saúde e bem-estar. Agende sua consulta na nossa clínica
+                                médica. Estamos à sua disposição!<br>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="footer_post_data">
+                        <div>6 dias atrás</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        </div>
+
+        <div class="footer_copy">
+            Copyright - Todos os direitos reservados.
+        </div>
+
+        </div>
+    </footer>
+
+
+
+
+
+
+
+</body>
+
+</html>
